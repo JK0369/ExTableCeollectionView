@@ -13,9 +13,12 @@
 		4A14C2F427D8D5940016755F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A14C2F227D8D5940016755F /* Main.storyboard */; };
 		4A14C2F627D8D5950016755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A14C2F527D8D5950016755F /* Assets.xcassets */; };
 		4A14C2F927D8D5950016755F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A14C2F727D8D5950016755F /* LaunchScreen.storyboard */; };
+		4A14C30127D8D62F0016755F /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14C30027D8D62F0016755F /* CategoryModel.swift */; };
+		A6E0C4067BC1DF3351E993B4 /* Pods_ExTableCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E421BD8FDFB78334E67D3CE /* Pods_ExTableCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38BBB21FD45998510ED17223 /* Pods-ExTableCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExTableCollectionView.debug.xcconfig"; path = "Target Support Files/Pods-ExTableCollectionView/Pods-ExTableCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		4A14C2E927D8D5940016755F /* ExTableCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExTableCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A14C2EC27D8D5940016755F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A14C2EE27D8D5940016755F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		4A14C2F527D8D5950016755F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A14C2F827D8D5950016755F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A14C2FA27D8D5950016755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A14C30027D8D62F0016755F /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		4E421BD8FDFB78334E67D3CE /* Pods_ExTableCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExTableCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789485E1E53D5F105FA6080C /* Pods-ExTableCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExTableCollectionView.release.xcconfig"; path = "Target Support Files/Pods-ExTableCollectionView/Pods-ExTableCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E0C4067BC1DF3351E993B4 /* Pods_ExTableCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				4A14C2EB27D8D5940016755F /* ExTableCollectionView */,
 				4A14C2EA27D8D5940016755F /* Products */,
+				EAA531355E064B883BF6C6A8 /* Pods */,
+				54E4EED812438E318A887D1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +68,30 @@
 				4A14C2EC27D8D5940016755F /* AppDelegate.swift */,
 				4A14C2EE27D8D5940016755F /* SceneDelegate.swift */,
 				4A14C2F027D8D5940016755F /* ViewController.swift */,
+				4A14C30027D8D62F0016755F /* CategoryModel.swift */,
 				4A14C2F227D8D5940016755F /* Main.storyboard */,
 				4A14C2F527D8D5950016755F /* Assets.xcassets */,
 				4A14C2F727D8D5950016755F /* LaunchScreen.storyboard */,
 				4A14C2FA27D8D5950016755F /* Info.plist */,
 			);
 			path = ExTableCollectionView;
+			sourceTree = "<group>";
+		};
+		54E4EED812438E318A887D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E421BD8FDFB78334E67D3CE /* Pods_ExTableCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAA531355E064B883BF6C6A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38BBB21FD45998510ED17223 /* Pods-ExTableCollectionView.debug.xcconfig */,
+				789485E1E53D5F105FA6080C /* Pods-ExTableCollectionView.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A14C2FD27D8D5950016755F /* Build configuration list for PBXNativeTarget "ExTableCollectionView" */;
 			buildPhases = (
+				70FA51FAA17D9B9BFDB9B7A1 /* [CP] Check Pods Manifest.lock */,
 				4A14C2E527D8D5940016755F /* Sources */,
 				4A14C2E627D8D5940016755F /* Frameworks */,
 				4A14C2E727D8D5940016755F /* Resources */,
+				E86740F40FF41D09A1A4C2F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70FA51FAA17D9B9BFDB9B7A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExTableCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86740F40FF41D09A1A4C2F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExTableCollectionView/Pods-ExTableCollectionView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExTableCollectionView/Pods-ExTableCollectionView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExTableCollectionView/Pods-ExTableCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A14C2E527D8D5940016755F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +212,7 @@
 				4A14C2F127D8D5940016755F /* ViewController.swift in Sources */,
 				4A14C2ED27D8D5940016755F /* AppDelegate.swift in Sources */,
 				4A14C2EF27D8D5940016755F /* SceneDelegate.swift in Sources */,
+				4A14C30127D8D62F0016755F /* CategoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +356,7 @@
 		};
 		4A14C2FE27D8D5950016755F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BBB21FD45998510ED17223 /* Pods-ExTableCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +385,7 @@
 		};
 		4A14C2FF27D8D5950016755F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789485E1E53D5F105FA6080C /* Pods-ExTableCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
