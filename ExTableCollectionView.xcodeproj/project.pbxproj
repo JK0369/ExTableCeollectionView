@@ -14,6 +14,8 @@
 		4A14C2F627D8D5950016755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A14C2F527D8D5950016755F /* Assets.xcassets */; };
 		4A14C2F927D8D5950016755F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A14C2F727D8D5950016755F /* LaunchScreen.storyboard */; };
 		4A14C30127D8D62F0016755F /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14C30027D8D62F0016755F /* CategoryModel.swift */; };
+		4A14C30327D901EE0016755F /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14C30227D901EE0016755F /* CategoryTableViewCell.swift */; };
+		4A14C30527D9048F0016755F /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14C30427D9048F0016755F /* ColorCollectionViewCell.swift */; };
 		A6E0C4067BC1DF3351E993B4 /* Pods_ExTableCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E421BD8FDFB78334E67D3CE /* Pods_ExTableCollectionView.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		4A14C2F827D8D5950016755F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A14C2FA27D8D5950016755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A14C30027D8D62F0016755F /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		4A14C30227D901EE0016755F /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		4A14C30427D9048F0016755F /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
 		4E421BD8FDFB78334E67D3CE /* Pods_ExTableCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExTableCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		789485E1E53D5F105FA6080C /* Pods-ExTableCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExTableCollectionView.release.xcconfig"; path = "Target Support Files/Pods-ExTableCollectionView/Pods-ExTableCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +72,8 @@
 				4A14C2EC27D8D5940016755F /* AppDelegate.swift */,
 				4A14C2EE27D8D5940016755F /* SceneDelegate.swift */,
 				4A14C2F027D8D5940016755F /* ViewController.swift */,
+				4A14C30227D901EE0016755F /* CategoryTableViewCell.swift */,
+				4A14C30427D9048F0016755F /* ColorCollectionViewCell.swift */,
 				4A14C30027D8D62F0016755F /* CategoryModel.swift */,
 				4A14C2F227D8D5940016755F /* Main.storyboard */,
 				4A14C2F527D8D5950016755F /* Assets.xcassets */,
@@ -209,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A14C30527D9048F0016755F /* ColorCollectionViewCell.swift in Sources */,
+				4A14C30327D901EE0016755F /* CategoryTableViewCell.swift in Sources */,
 				4A14C2F127D8D5940016755F /* ViewController.swift in Sources */,
 				4A14C2ED27D8D5940016755F /* AppDelegate.swift in Sources */,
 				4A14C2EF27D8D5940016755F /* SceneDelegate.swift in Sources */,

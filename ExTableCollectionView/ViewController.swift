@@ -7,10 +7,18 @@
 
 import UIKit
 import SnapKit
+import Then
 
 class ViewController: UIViewController {
+  private let tableView = UITableView().then {
+    $0.register(CategoryTableViewCell.self, forCellReuseIdentifier: CategoryTableViewCell.id)
+  }
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    self.view.addSubview(self.tableView)
+    self.tableView.snp.makeConstraints {
+      $0.edges.equalToSuperview()
+    }
   }
 }
