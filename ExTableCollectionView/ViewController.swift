@@ -12,7 +12,7 @@ import Then
 class ViewController: UIViewController {
   private lazy var tableView = UITableView().then {
     $0.separatorStyle = .none
-    $0.rowHeight = 120
+    $0.rowHeight = 220
     $0.dataSource = self
     $0.delegate = self
     $0.register(CategoryTableViewCell.self, forCellReuseIdentifier: CategoryTableViewCell.id)

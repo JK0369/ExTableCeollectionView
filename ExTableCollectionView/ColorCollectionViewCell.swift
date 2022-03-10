@@ -26,8 +26,8 @@ final class ColorCollectionViewCell: UICollectionViewCell {
       $0.left.top.right.equalToSuperview()
     }
     self.nameLabel.snp.makeConstraints {
-      $0.left.bottom.right.equalToSuperview()
       $0.top.equalTo(self.colorView.snp.bottom)
+      $0.left.bottom.right.equalToSuperview()
     }
   }
   required init?(coder: NSCoder) {

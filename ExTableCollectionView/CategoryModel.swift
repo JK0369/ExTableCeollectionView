@@ -28,11 +28,11 @@ let sampleModel = [
     subCategoryList: [
       SubCategory(
         name: "서브1.1",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브1.2",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       )
     ]
   ),
@@ -41,15 +41,15 @@ let sampleModel = [
     subCategoryList: [
       SubCategory(
         name: "서브2.1",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브2.2",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브123",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       )
     ]
   ),
@@ -58,7 +58,7 @@ let sampleModel = [
     subCategoryList: [
       SubCategory(
         name: "서브3.1",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       )
     ]
   ),
@@ -67,23 +67,23 @@ let sampleModel = [
     subCategoryList: [
       SubCategory(
         name: "서브4.1",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브4.2",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브4.3",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브4.4",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브4.5",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       )
     ]
   ),
@@ -92,15 +92,15 @@ let sampleModel = [
     subCategoryList: [
       SubCategory(
         name: "서브5.1",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브5.2",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       ),
       SubCategory(
         name: "서브5.3",
-        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString)", color: $0) }
+        colors: UIColor.getRandomColorList().map { ColorModel(name: "컬러(\($0.hexString))", color: $0) }
       )
     ]
   )
