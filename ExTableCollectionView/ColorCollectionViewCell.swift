@@ -15,7 +15,7 @@ final class ColorCollectionViewCell: UICollectionViewCell {
   private let colorView = UIView()
   private let nameLabel = UILabel().then {
     $0.textColor = .black
-    $0.font = .systemFont(ofSize: 18)
+    $0.font = .systemFont(ofSize: 14)
   }
   
   override init(frame: CGRect) {
@@ -32,5 +32,13 @@ final class ColorCollectionViewCell: UICollectionViewCell {
   }
   required init?(coder: NSCoder) {
     fatalError()
+  }
+  override func prepareForReuse() {
+    super.prepareForReuse()
+    self.prepare(color: nil, name: nil)
+  }
+  func prepare(color: UIColor?, name: String?) {
+    self.colorView.backgroundColor = color
+    self.nameLabel.text = name
   }
 }
