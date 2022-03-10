@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     self.view.addSubview(self.tableView)
     self.tableView.snp.makeConstraints {
-      $0.edges.equalToSuperview()
+      $0.edges.equalTo(self.view.safeAreaLayoutGuide)
     }
     self.dataSource = sampleModel
     self.tableView.reloadData()
