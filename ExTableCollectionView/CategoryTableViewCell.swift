@@ -84,16 +84,3 @@ extension CategoryTableViewCell: UICollectionViewDataSource {
     return cell
   }
 }
-
-//class SelfSizingCollectionView: UICollectionView {
-//  override var intrinsicContentSize: CGSize {
-//    let width = self.collectionViewLayout.collectionViewContentSize.width + self.contentInset.left + self.contentInset.right
-//    let height = self.collectionViewLayout.collectionViewContentSize.height + self.contentInset.top + self.contentInset.bottom
-//    return CGSize(width: width, height: height)
-//  }
-//
-//  override func layoutSubviews() {
-//    self.invalidateIntrinsicContentSize()
-//    super.layoutSubviews()
-//  }
-//}
